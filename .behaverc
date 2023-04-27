@@ -1,0 +1,5 @@
+[behave]
+format=pretty
+logging_level=INFO
+summary=yes
+expand=yes

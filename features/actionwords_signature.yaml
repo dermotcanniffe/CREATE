@@ -1,0 +1,21 @@
+---
+- name: a Settings file is in an expected location
+  uid: c0a8f0cf-d95c-4642-a2ad-674223317a69
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: we run the application
+  uid: 56b920fe-d2b6-444f-9240-00b4da615bac
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: A video consisting of only Intro and Outro is created
+  uid: 19d5a350-f07b-45b0-b852-5fea47222dc2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: we alter the settings file
+  uid: ed36c240-dbb5-4d27-926e-9a4d4cd33836
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: A video consisting of a new Intro and Outro is created
+  uid: dcd621b9-f3bf-4d0a-b929-c6ac7ee10bf5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
