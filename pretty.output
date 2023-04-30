@@ -1,13 +1,13 @@
 Feature: Core Functionality # features/core_functionality.feature:1
 
   Scenario: Creating a Video with No Inputs                    # features/core_functionality.feature:4
-    Given a Settings file is in an expected location           # features/steps/steps.py:22
-    When we run the application                                # features/steps/steps.py:32
-    Then A video consisting of only Intro and Outro is created # features/steps/steps.py:17
+    Given a Settings file is in an expected location           # features/steps/steps.py:23
+    When we run the application                                # features/steps/steps.py:33
+    Then A video consisting of only Intro and Outro is created # features/steps/steps.py:18
 
   Scenario: Modifying the Settings File Generates a Different Output  # features/core_functionality.feature:9
-    Given a Settings file is in an expected location                  # features/steps/steps.py:22
-    When we alter the settings file                                   # features/steps/steps.py:27
-    And we run the application                                        # features/steps/steps.py:32
-    Then A video consisting of a new Intro and Outro is created       # features/steps/steps.py:12
+    Given a Settings file is in an expected location                  # features/steps/steps.py:23
+    When we alter the settings file                                   # features/steps/steps.py:28
+    And we run the application                                        # features/steps/steps.py:33
+    Then A video consisting of a new Intro and Outro is created       # features/steps/steps.py:13
 

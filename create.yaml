@@ -1,0 +1,6 @@
+--- # Comping settings
+compositing:
+  intro: intro.mp4
+  outro: outro.mp4
+  transition: crossfade
+  audiotrack: 

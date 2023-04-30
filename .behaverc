@@ -3,3 +3,5 @@ format=pretty
 logging_level=INFO
 summary=yes
 expand=yes
+color=yes
+stdout_capture = no
